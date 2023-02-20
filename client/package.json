@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/sound": "^2.0.1",
+    "pinia": "^2.0.31",
     "vue": "^3.2.45"
   },
   "devDependencies": {

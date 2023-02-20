@@ -1,9 +1,18 @@
 <template>
-  <div class="text-4xl text-center">Стани Богат</div>
+  <wrapper-app>
+    This is the children.
+  </wrapper-app>
 </template>
 
-<script setup>
+<script>
+import WrapperApp from './components/WrapperApp.vue';
 
+export default {
+  name: "App",
+  components: {
+    "wrapper-app": WrapperApp
+  }
+}
 </script>
 
 <style scoped>
